@@ -1991,6 +1991,9 @@ img{
 		height: 30rem;
 		/* display: flex; */
 	}
+	.background div img{
+		display: none;
+	}
 	.background img{
 		width: 40rem;
 		position: absolute;
@@ -2016,8 +2019,30 @@ img{
 		font-size: 12px;
 		color: white;
 	}
-	
+	.bussines .row{
+		width: 100%;
+	}
+	.bussines .row p{
+		color: #ed6700;
+		font-weight: bolder;
+		font-family: 'Poppins', sans-serif;
+	}
+	.row h3{
+		color: #000000;
+		font-weight: bolder;
+		font-family: 'Manrope', sans-serif;
+		font-weight: 800;
+	}
+	.bussines .row .range .description{
+		color: #7e7e7e;
+		
+	}	
 }
+
+
+
+
+
 @media(min-width:768px){
 	.container{
 		margin: 0px 20px;
@@ -2025,8 +2050,9 @@ img{
 	.background{
 		height: 24rem;
 	}
-	.backgroun div img{
-		
+	.background div img{
+		margin: 2rem 56rem;
+    	width: 35px;
 	}
 	.background img{
 		width: 42rem;
@@ -2038,7 +2064,7 @@ img{
 		font-weight: bolder;
 		float: right;
 		width: 19rem;
-		margin: 4rem 1rem;
+		margin: 3rem 2rem;
 		z-index: 2;
 		color: white;
 	} 
@@ -2095,6 +2121,14 @@ img{
 	}
 
 }
+
+
+
+
+
+
+
+
 @media(min-width:991px){
 	.background{
 		height: 32rem;
@@ -2115,10 +2149,30 @@ img{
 		font-size: 12px;
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
 @media(min-width:1199px){
 	.background div img{
-		width: 3rem;
-    	position: absolute;
+		margin: -8rem 87rem;
+    	width: 35px;
+	}
+	.background img{
+		width: 57rem;
+		top: 20rem;
+		left: -12rem;
+	}
+	.background .text{
+		width: 19rem;
+    	margin: 10rem 13rem;
 	}
 }
 
